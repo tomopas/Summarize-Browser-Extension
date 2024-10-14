@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Summarizer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="popup-content">
+        <h1>AI Summarizer</h1>
+        <label for="agreement-select">Select Agreement:</label>
+        <select id="agreement-select">
+            <option value="license-agreement">License Agreement</option>
+            <option value="terms-of-service">Terms of Service</option>
+            <option value="privacy-policy">Privacy Policy</option>
+            <option value="employment-agreement">Employment Agreement</option>
+        </select>
+        <button id="summarizeButton">Summarize</button>
+        <div id="result"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
